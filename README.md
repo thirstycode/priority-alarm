@@ -9,7 +9,6 @@
 ```bash
 1. pip install -r requirements.txt
 ```
-<br>
 #### Execute It:
 ```bash
 1. python scrapper.py
