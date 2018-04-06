@@ -11,6 +11,6 @@
 ```
 #### Execute It:
 ```bash
-1. python scrapper.py
+1. python main_gui.py
 ```
 <br>
