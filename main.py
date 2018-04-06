@@ -3,12 +3,12 @@
 
 # import nececssary modules
 from datetime import datetime as dt
-from dateget import (date,month,year,hour,minute)
+# from support.dateget import (date,month,year,hour,minute)
 import time
 
-import shutdown
-import popup
-import sound_play
+from support import shutdown
+from support import popup
+from support import sound_play
 
 # inputs of all required things
 # <---note ----- no conditional applied for wrong date ------ TODO----->
