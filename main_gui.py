@@ -42,6 +42,7 @@ priorities = [
     ("Shutdown Your Computer",3),
 ]
 
+# button function just to inform user to close window 
 def set_alarm():
     w2 = Label(win,text="Alarm Saved ! Now Close This Window !")
     # w2.pack()
