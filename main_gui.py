@@ -93,4 +93,5 @@ Input_box.grid(row=10,column=1)
 
 win.mainloop()
 
+# calling main2
 main2.alarm_loop(int(variable_year.get()),int(OPTIONS_MONTH.index(variable_month.get()) +1),int(variable_date.get()),int(variable_hour.get()),int(variable_minute.get()),int(variable_priority.get()),output1.get())
