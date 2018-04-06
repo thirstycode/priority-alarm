@@ -74,15 +74,18 @@ d5.grid(row=5,column=1)
 button = Button(win, text="Set Alarm", command=set_alarm)
 button.grid(row=11,column=0,columnspan=2)
 
+# radio buttons
 Label(win,
          text="""Choose Your Priority : """,
          justify = LEFT,
          padx = 20).grid(row=6,column=0,columnspan=2)
-rowc=7
-for val, priority in enumerate(priorities):
-    Radiobutton(win,text=priority,padx = 20,variable=variable_priority,value=val+1).grid(row=rowc,column=0)
-    rowc +=1
 
+rowstart=7
+for val, priority in enumerate(priorities):
+    Radiobutton(win,text=priority,padx = 20,variable=variable_priority,value=val+1).grid(row=rowstart,column=0)
+    rowstart +=1
+
+# title input
 w7 = Label(win,text="Alarm Title : ")
 w7.grid(row=10,column=0)
 Input_box = Entry(win , textvariable = output1)
