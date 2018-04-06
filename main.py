@@ -9,16 +9,18 @@ import shutdown
 import popup
 import sound_play
 
-# inputs
+# inputs of all required things
+# <---note ----- no conditional applied for wrong date ------ TODO----->
 year = int(input("Enter Year : "))
 month = int(input("Enter Month : "))
 date = int(input("Enter Date : "))
 hour = int(input("Enter Hour : "))
 minute = int(input("Enter Minute : "))
-
-now = dt(year,month,date,hour,minute)
 priority = input("Enter priority \n '1' for popup alert \n '2' for sound play \n '3' for shutdown \n Enter : ")
 priority = int(priority)
+
+
+now = dt(year,month,date,hour,minute)
 popuptext = "Alarm description"
 soundtext = "Sound Text"
 # if priority == 1 :
