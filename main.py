@@ -1,9 +1,15 @@
+# <--------alarm working from terminal ------ added gui in main_gui.py file---->
+
+# import nececssary modules
 from datetime import datetime as dt
 from dateget import (date,month,year,hour,minute)
 import time
+
 import shutdown
 import popup
 import sound_play
+
+# inputs
 year = int(input("Enter Year : "))
 month = int(input("Enter Month : "))
 date = int(input("Enter Date : "))
