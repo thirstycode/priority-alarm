@@ -4,7 +4,6 @@ import shutdown
 import popup
 import sound_play
 
-
 def alarm_loop(year,month,date,hour,minute,priority,text):
     now = dt(year,month,date,hour,minute)
     while True:
