@@ -22,7 +22,7 @@ priorities = [
 ]
 
 
-# required variables
+# required variables and initialising them to current time
 output1 = StringVar()
 variable_year = StringVar(win)
 variable_year.set(dt.now().year)
@@ -48,7 +48,7 @@ def set_alarm():
     # w2.pack()
     w2.grid(row=12,column=0,columnspan=2)
 
-
+# declaring elements in window
 w = Label(win,text="To Set Your Alarm With Priority Tasks")
 w.grid(row=0,column=0,columnspan=2)
 w2 = Label(win,text="Year : ")
