@@ -1,8 +1,8 @@
 from datetime import datetime as dt
 import time
-import shutdown
-import popup
-import sound_play
+from support import shutdown
+from support import popup
+from support import sound_play
 
 def alarm_loop(year,month,date,hour,minute,priority,text):
     now = dt(year,month,date,hour,minute)
