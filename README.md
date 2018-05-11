@@ -12,7 +12,7 @@
 1. python main_gui.py
 ```
 <br>
-**Alarm In Windows Having 3 Modes Of Priorities**
+<b>Alarm In Windows Having 3 Modes Of Priorities</b>
 <br>
 1. Popup Window
 <br>
